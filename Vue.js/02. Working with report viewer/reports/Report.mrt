@@ -1,0 +1,322 @@
+{
+  "ReportGuid": "6cab42034177b870542f227cdee36728",
+  "ReportName": "Report",
+  "ReportAlias": "Report",
+  "ReportFile": "Report.mrt",
+  "ReportCreated": "/Date(1589479608000+0100)/",
+  "ReportChanged": "/Date(1589479608000+0100)/",
+  "EngineVersion": "EngineV2",
+  "CalculationMode": "Interpretation",
+  "ReportUnit": "Centimeters",
+  "PreviewSettings": 268435455,
+  "Dictionary": {
+    "DataSources": {
+      "0": {
+        "Ident": "StiODataSource",
+        "Name": "People",
+        "Alias": "People",
+        "Columns": {
+          "0": {
+            "Name": "AddressInfo",
+            "Index": -1,
+            "NameInSource": "AddressInfo",
+            "Alias": "AddressInfo",
+            "Type": "System.String"
+          },
+          "1": {
+            "Name": "Age",
+            "Index": -1,
+            "NameInSource": "Age",
+            "Alias": "Age",
+            "Type": "System.Int64"
+          },
+          "2": {
+            "Name": "Emails",
+            "Index": -1,
+            "NameInSource": "Emails",
+            "Alias": "Emails",
+            "Type": "System.String"
+          },
+          "3": {
+            "Name": "FavoriteFeature",
+            "Index": -1,
+            "NameInSource": "FavoriteFeature",
+            "Alias": "FavoriteFeature",
+            "Type": "System.String"
+          },
+          "4": {
+            "Name": "Features",
+            "Index": -1,
+            "NameInSource": "Features",
+            "Alias": "Features",
+            "Type": "System.String"
+          },
+          "5": {
+            "Name": "FirstName",
+            "Index": -1,
+            "NameInSource": "FirstName",
+            "Alias": "FirstName",
+            "Type": "System.String"
+          },
+          "6": {
+            "Name": "Gender",
+            "Index": -1,
+            "NameInSource": "Gender",
+            "Alias": "Gender",
+            "Type": "System.String"
+          },
+          "7": {
+            "Name": "HomeAddress",
+            "Index": -1,
+            "NameInSource": "HomeAddress",
+            "Alias": "HomeAddress",
+            "Type": "System.String"
+          },
+          "8": {
+            "Name": "LastName",
+            "Index": -1,
+            "NameInSource": "LastName",
+            "Alias": "LastName",
+            "Type": "System.String"
+          },
+          "9": {
+            "Name": "MiddleName",
+            "Index": -1,
+            "NameInSource": "MiddleName",
+            "Alias": "MiddleName",
+            "Type": "System.String"
+          },
+          "10": {
+            "Name": "UserName",
+            "Index": -1,
+            "NameInSource": "UserName",
+            "Alias": "UserName",
+            "Type": "System.String"
+          }
+        },
+        "NameInSource": "OData",
+        "SqlCommand": "People"
+      }
+    },
+    "Databases": {
+      "0": {
+        "Ident": "StiODataDatabase",
+        "Name": "OData",
+        "Alias": "odata",
+        "ConnectionStringEncrypted": "2H73y2Zd693uR8EAYUStFp9g84lJSqPtQQe5lGEQNQ+DOLXi61GZ2Wp81JDrcCFL3mDhK2gWQ4FpR7HcxHSj55layetOX3qBa1kl7clMZQ=="
+      }
+    }
+  },
+  "Pages": {
+    "0": {
+      "Ident": "StiPage",
+      "Name": "Page1",
+      "Guid": "89dcd96c5a3775baea2ad07541e2e394",
+      "Interaction": {
+        "Ident": "StiInteraction"
+      },
+      "Border": ";;2;;;;;solid:Black",
+      "Brush": "solid:",
+      "Components": {
+        "0": {
+          "Ident": "StiTable",
+          "Name": "TablePeople",
+          "ClientRectangle": "0,0.4,19,1.6",
+          "Interaction": {
+            "Ident": "StiBandInteraction"
+          },
+          "Border": ";;;;;;;solid:Black",
+          "Brush": "solid:",
+          "Components": {
+            "0": {
+              "Ident": "StiTableCell",
+              "Name": "TablePeople_Cell1",
+              "Guid": "361370b5ab67934191e5109f742f5761",
+              "ClientRectangle": "0,0,3.8,0.8",
+              "Restrictions": "AllowMove, AllowSelect, AllowChange",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "FirstName"
+              },
+              "Border": "All;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:",
+              "TextBrush": "solid:Black",
+              "ID": 0
+            },
+            "1": {
+              "Ident": "StiTableCell",
+              "Name": "TablePeople_Cell2",
+              "Guid": "fd6279c0d0ae85b8ad695bc9244dd0fb",
+              "ClientRectangle": "3.8,0,3.8,0.8",
+              "Restrictions": "AllowMove, AllowSelect, AllowChange",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "LastName"
+              },
+              "Border": "All;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:",
+              "TextBrush": "solid:Black",
+              "ID": 1
+            },
+            "2": {
+              "Ident": "StiTableCell",
+              "Name": "TablePeople_Cell3",
+              "Guid": "d6316eb5187a00a35eec41a58e0d4804",
+              "ClientRectangle": "7.6,0,3.8,0.8",
+              "Restrictions": "AllowMove, AllowSelect, AllowChange",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "Gender"
+              },
+              "Border": "All;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:",
+              "TextBrush": "solid:Black",
+              "ID": 2
+            },
+            "3": {
+              "Ident": "StiTableCell",
+              "Name": "TablePeople_Cell4",
+              "Guid": "4206767cd54164281afb69460eac6498",
+              "ClientRectangle": "11.4,0,3.8,0.8",
+              "Restrictions": "AllowMove, AllowSelect, AllowChange",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "Age"
+              },
+              "Border": "All;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:",
+              "TextBrush": "solid:Black",
+              "ID": 3
+            },
+            "4": {
+              "Ident": "StiTableCell",
+              "Name": "TablePeople_Cell5",
+              "Guid": "6a17e67ed1be8ec033e3a8e8df7a5b83",
+              "ClientRectangle": "15.2,0,3.8,0.8",
+              "Restrictions": "AllowMove, AllowSelect, AllowChange",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "HomeAddress"
+              },
+              "Border": "All;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:",
+              "TextBrush": "solid:Black",
+              "ID": 4
+            },
+            "5": {
+              "Ident": "StiTableCell",
+              "Name": "TablePeople_Cell6",
+              "Guid": "721ee9725bc0a6ab46aa2f503762144c",
+              "ClientRectangle": "0,0.8,3.8,0.8",
+              "Restrictions": "AllowMove, AllowSelect, AllowChange",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{People.FirstName}"
+              },
+              "Border": "All;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:",
+              "TextBrush": "solid:Black",
+              "ID": 5
+            },
+            "6": {
+              "Ident": "StiTableCell",
+              "Name": "TablePeople_Cell7",
+              "Guid": "a6d87a5fba21161968571200bdc1f894",
+              "ClientRectangle": "3.8,0.8,3.8,0.8",
+              "Restrictions": "AllowMove, AllowSelect, AllowChange",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{People.LastName}"
+              },
+              "Border": "All;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:",
+              "TextBrush": "solid:Black",
+              "ID": 6
+            },
+            "7": {
+              "Ident": "StiTableCell",
+              "Name": "TablePeople_Cell8",
+              "Guid": "7c6d5030647b70b3250cd8e6613316e4",
+              "ClientRectangle": "7.6,0.8,3.8,0.8",
+              "Restrictions": "AllowMove, AllowSelect, AllowChange",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{People.Gender}"
+              },
+              "Border": "All;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:",
+              "TextBrush": "solid:Black",
+              "ID": 7
+            },
+            "8": {
+              "Ident": "StiTableCell",
+              "Name": "TablePeople_Cell9",
+              "Guid": "2b6442831f1aee72570d065c5d4b83d9",
+              "ClientRectangle": "11.4,0.8,3.8,0.8",
+              "Restrictions": "AllowMove, AllowSelect, AllowChange",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{People.Age}"
+              },
+              "Border": "All;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:",
+              "TextBrush": "solid:Black",
+              "ID": 8
+            },
+            "9": {
+              "Ident": "StiTableCell",
+              "Name": "TablePeople_Cell10",
+              "Guid": "4b3f02232e576e840e9c97711d272e50",
+              "ClientRectangle": "15.2,0.8,3.8,0.8",
+              "Restrictions": "AllowMove, AllowSelect, AllowChange",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{People.HomeAddress}"
+              },
+              "Border": "All;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:",
+              "TextBrush": "solid:Black",
+              "ID": 9
+            }
+          },
+          "MinHeight": 0.4,
+          "DataSourceName": "People",
+          "RowCount": 2,
+          "HeaderRowsCount": 1,
+          "NumberID": 10
+        }
+      },
+      "PageWidth": 21,
+      "PageHeight": 29.7,
+      "Watermark": {
+        "TextBrush": "solid:50,0,0,0"
+      },
+      "Margins": {
+        "Left": 1,
+        "Right": 1,
+        "Top": 1,
+        "Bottom": 1
+      }
+    }
+  }
+}
